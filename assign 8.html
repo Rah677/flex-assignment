@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avatar</title>
+    <style>
+        body{
+            background-color: #242b2e;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            height: 100vh; 
+        }
+        img{
+            width: 200px;
+            border: 10px solid white;
+            border-radius: 50%;
+            position: relative;
+            margin-left: -50px;
+            /* margin-top: 250px; */
+        }
+        .image-1{
+            z-index: 4;
+        }
+        .image-2{
+            z-index: 3;
+        }
+        .image-3{
+            z-index: 2;
+        }
+        .image-4{
+            z-index: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <img src="/IMG_20220727_133933.jpg" alt="image-1"  class="image-1">
+        <img src="/images/pexels-photo-4534200.jpeg" alt="image-2" class="image-2">
+        <img src="/images/pexels-photo-461940.jpeg"  alt="image-3" class="image-3">
+        <img src="/images/pexels-photo-4201659.jpeg" alt="image-4" class="image-4">
+    </section>
+</body>
+</html>

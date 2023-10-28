@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi columns</title>
+    <style>
+        body{
+            background-color: rgb(65, 59, 59);
+            display: flex;
+            justify-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .container{
+            max-width: 1200px;
+            width: 100%;
+            
+            
+        }
+        h1{
+            color:  #ff6666;
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+        .all-columns{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            border: 5px solid black;
+            border-radius: 5px;
+            align-items: center;
+
+
+        }
+        h2 {
+            font-weight: bold;
+            margin-bottom: 0px;
+            font-size: 30px;
+        }
+        img{
+            max-width: 150px;
+        }
+        p{
+            padding: 0px 20px;
+        }
+        .columns-1{
+            background-color: #35bdd0;
+            
+        }
+        .columns-2{
+            background-color:  #e03b8b;
+
+        }
+        .columns-3{
+            background-color: #5a20cb;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Full stack web Development</h1>
+    <br>
+    <div class="all-columns">
+        <div class="content columns-1">
+            <h2>Html</h2>
+            <img src="/logo-2582748_640.webp" alt="Html">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sapiente veniam officiis fugiat adipisci ab maiores debitis voluptatum dolore. Labore debitis vel deleniti quia eaque optio voluptatem quibusdam vero nemo rerum perspiciatis, qui sit cumque? Recusandae labore accusamus atque temporibus est quos ad doloribus unde? Doloremque dignissimos veniam a temporibus.</p>
+        </div>
+        <div class="content columns-2">
+            <h2>CSS</h2>
+            <img src="/logo-2582748_640.webp" alt="Html">
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum inventore, placeat unde perspiciatis voluptas nobis aliquam similique aspernatur harum culpa.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sapiente veniam officiis fugiat adipisci ab maiores debitis voluptatum dolore. Labore debitis vel deleniti quia eaque optio voluptatem quibusdam vero nemo rerum perspiciatis, qui sit cumque? Recusandae labore accusamus atque temporibus est quos ad doloribus unde? Doloremque dignissimos veniam a temporibus.</p>
+        </div>
+        <div class="content columns-3">
+            <h2>JavaScript</h2>
+            <img src="/logo-2582748_640.webp" alt="Html">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sapiente veniam officiis fugiat adipisci ab maiores debitis voluptatum dolore. Labore debitis vel deleniti quia eaque optio voluptatem quibusdam vero nemo rerum perspiciatis, qui sit cumque? Recusandae labore accusamus atque temporibus est quos ad doloribus unde? Doloremque dignissimos veniam a temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo harum mollitia tempora, distinctio molestias deleniti, repudiandae pariatur atque esse eius similique. Cumque eligendi sed vel laborum facilis reiciendis, provident ab ut voluptates labore totam laudantium minima itaque molestiae, placeat tempore. Quam suscipit nemo, fugiat ea sapiente deserunt eius facere omnis.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
